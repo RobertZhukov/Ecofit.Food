@@ -35,7 +35,7 @@ require("http")
   .on("request", function (req, res) {
     res.end("");
   });
-const bot = new Telegraf(process.env.BOT_TOKET, { polling: true });
+const bot = new Telegraf(process.env.BOT_TOKEN, { polling: true });
 bot.use(session());
 bot.use(stage.middleware());
 
