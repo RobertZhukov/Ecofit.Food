@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const {
   minWeight,
   maxWeight,
@@ -80,13 +79,3 @@ module.exports = {
     };
   },
 };
-=======
-module.exports = {
-  getChatId(msg) {
-    return msg.chat.id
-  },
-  getChatIdInMessage(msg) {
-    return msg.message.chat.id
-  }
-}
->>>>>>> a973f3bb8bcbf8543145d17c1cf42e5463eba09c
